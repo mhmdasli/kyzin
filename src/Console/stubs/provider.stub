@@ -1,0 +1,47 @@
+<?php
+/*
+ * Created By: Mohamad Asli
+ */
+namespace DummyNamespace;
+
+use App\Modules\DummyUCtitle\Commands\DummyUCtitleCommand;
+use Illuminate\Filesystem\Filesystem;
+use MhmdAsli\Kyzin\KyzinServiceProvider;
+
+class Provider extends KyzinServiceProvider
+{
+    protected $files;
+
+    /**
+     * Bootstrap the application services.
+     *
+     * @return void
+     */
+    public function boot()
+    {
+
+    }
+
+    /**
+     * Register the application services.
+     *
+     * @return void
+     */
+    public function register()
+    {
+        $this->files = new Filesystem;
+        $this->registerCommands();
+    }
+
+    /**
+     * Register the "kyzin:core" console commands.
+     *
+     * @return Console\DummyClass
+     */
+    protected function registerCommands()
+    {
+          $this->commands([
+                  DummyUCtitleCommand::class
+              ]);
+    }
+}

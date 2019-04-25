@@ -1,0 +1,24 @@
+{
+    "name": "mhmdasli/kyzin",
+    "description": "Modular pattern for Laravel and other tools",
+    "keywords": ["laravel", "modular", "modules", "module", "structure", "pattern", "kyzin", "masli", "artisan", "generator"],
+    "homepage": "https://",
+    "license": "MIT",
+    "version": "1.0.1",
+    "authors": [
+        {
+            "name": "Mohamad Asli",
+            "email": "m.ali2910@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "laravel/framework": ">=5.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "MhmdAsli\\Kyzin\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}

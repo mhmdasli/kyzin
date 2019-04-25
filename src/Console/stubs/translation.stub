@@ -1,0 +1,7 @@
+<?php 
+/*
+ * Created By: Mohamad Asli
+ */
+return [
+    'welcome' => 'Welcome, this is DummyUCtitle module.'
+];

@@ -1,0 +1,9 @@
+<?php
+/*
+ * Created By: Mohamad Asli
+ */
+Route::group(['module' => 'DummyUCtitle', 'namespace' => 'DummyNamespace\Controllers'], function() {
+
+    Route::resource('DummyTitle', 'DummyUCtitleController');
+
+});

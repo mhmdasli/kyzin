@@ -1,0 +1,9 @@
+<?php
+/*
+ * Created By: Mohamad Asli
+ */
+Route::group(['module' => 'DummyUCtitle', 'middleware' => ['web'], 'namespace' => 'DummyNamespace\Components'], function() {
+
+    Route::resource('/DummyTitle', 'DummyUCtitleComponent');
+
+});
