@@ -2,7 +2,7 @@
     "name": "mhmdasli/kyzin",
     "description": "Modular pattern for Laravel and other tools",
     "keywords": ["laravel", "modular", "modules", "module", "structure", "pattern", "kyzin", "masli", "artisan", "generator"],
-    "homepage": "https://",
+    "homepage": "https://kyzin.net",
     "license": "MIT",
     "version": "1.0.1",
     "authors": [
