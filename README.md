@@ -23,7 +23,7 @@ Once this operation is complete, simply add the service provider to your project
 
 #### Service Provider
 ```
-Masli\Kyzin\KyzinServiceProvider::class,
+MhmdAsli\Kyzin\KyzinServiceProvider::class,
 ```
 
 <a name="getting-started"></a>
