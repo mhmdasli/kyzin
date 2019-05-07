@@ -21,4 +21,5 @@
         }
     },
     "prefer-stable": true,
+    "minimum-stability": "stable"
 }
